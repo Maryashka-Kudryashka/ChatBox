@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e007f8ea-6bfb-42c8-83bc-10cbfcb47041" name="Default" comment="" />
+    <list default="true" id="e007f8ea-6bfb-42c8-83bc-10cbfcb47041" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Styles/.sass-cache/18218cfa676a0b6ea0d1a821f6d9b755dfb53070/Chat.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Styles/.sass-cache/18218cfa676a0b6ea0d1a821f6d9b755dfb53070/CreateMessage.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Styles/.sass-cache/18218cfa676a0b6ea0d1a821f6d9b755dfb53070/Style.scssc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -143,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516447490678</updated>
-      <workItem from="1516447497408" duration="1428000" />
+      <workItem from="1516447497408" duration="1673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1428000" />
+    <option name="totallyTimeSpent" value="1673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
