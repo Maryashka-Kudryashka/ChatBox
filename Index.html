@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="Index.css">
+    <script src="Index.js"></script>
     <meta charset="UTF-8">
   </head>
   <body>
@@ -21,21 +22,20 @@
       </header>
       <main class="chat">
         <div class="chat__messages chat__messages_friend">
-          <img class="chat__friend-img" src="Images\iryna.jpg" alt="">
+          <img class="chat__friend-img" src="https://res.cloudinary.com/demo/image/facebook/100004371970998.jpg" alt="">
           <span class="chat__message">Yo, Can you update views?</span>
-          <span class="chat__message">I can't see updated views yet</span>
-          <span class="chat__message">Yo, Can you update views?</span>
-          <span class="chat__message">I can't see updated views yet</span>
         </div>
         <time class="chat__time">FRI 11:30AM</time>
+        <div class="chat__messages chat__messages_friend">
+          <img class="chat__friend-img" src="https://res.cloudinary.com/demo/image/facebook/100004371970998.jpg" alt="">
+          <span class="chat__message">I can't see updated views yet</span>
+        </div>
         <div class="chat__messages chat__messages_user">
-          <span class="chat__message">Hi, as I noted in Email last week - I am on vacation.</span>
-          <span class="chat__message">I will be back next week</span>
           <span class="chat__message">Hi, as I noted in Email last week - I am on vacation.</span>
           <span class="chat__message">I will be back next week</span>
         </div>
         <div class="chat__messages chat__messages_friend">
-          <img class="chat__friend-img" src="Images\iryna.jpg" alt="">
+          <img class="chat__friend-img" src="https://res.cloudinary.com/demo/image/facebook/100004371970998.jpg" alt="">
           <span class="chat__message">Ahh sorry, missed that!</span>
           <span class="chat__message">Let's talk next week</span>
         </div>
@@ -46,7 +46,7 @@
           <span class="chat__message">I will be back next week</span>
         </div>
         <div class="chat__messages chat__messages_friend">
-          <img class="chat__friend-img" src="Images\iryna.jpg" alt="">
+          <img class="chat__friend-img" src="https://res.cloudinary.com/demo/image/facebook/100004371970998.jpg" alt="">
           <span class="chat__message">Yo, Can you update views?</span>
           <span class="chat__message">I can't see updated views yet</span>
           <span class="chat__message">Yo, Can you update views?</span>
@@ -54,7 +54,7 @@
         </div>
       </main>
       <form class="create-message" action="index.html" method="post">
-        <input class="create-message__input" type="text" name="" value="" placeholder="Type a message...">
+        <textarea rows="1" class="create-message__input" placeholder="Type a message..."></textarea>
         <nav class="create-message__input-options">
           <img class="create-message__input-option" src="Icons\Picture.svg" alt="">
           <img class="create-message__input-option" src="Icons\Gif.svg" alt="">
