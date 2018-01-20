@@ -1,0 +1,29 @@
+.header {
+  background-color: #2994fb;
+  width: 100%;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box; }
+  .header__status {
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    margin-right: 8px;
+    background-color: #69f0ae; }
+    .header__status_online {
+      display: flex; }
+    .header__status_offline {
+      display: none; }
+  .header__friend-name {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 13px; }
+  .header__options, .header__friend-info {
+    display: flex;
+    align-items: center; }
+  .header__option {
+    margin-left: 10px; }
+
+/*# sourceMappingURL=Header.css.map */

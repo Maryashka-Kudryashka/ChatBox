@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAgB;EACd,UAAU,EAAE,iBAAiB;EAC7B,sBAAS;IACP,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,OAAO,EAAE,SAAS;IAClB,UAAU,EAAE,UAAU;IACtB,4BAAQ;MACN,OAAO,EAAE,IAAI;EAGjB,8BAAiB;IACf,OAAO,EAAE,WAAW;EAEtB,6BAAgB;IACd,YAAY,EAAE,GAAG",
+"sources": ["CreateMessage.scss"],
+"names": [],
+"file": "CreateMessage.css"
+}

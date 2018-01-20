@@ -6,46 +6,55 @@ html {
   overflow: hidden;
   background-color: white;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.11); }
-  .chatbox__info {
-    background-color: #2994fb;
-    width: 100%;
-    padding: 8px 10px;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box; }
-  .chatbox__status {
+
+.container {
+  width: 20%; }
+
+.header {
+  background-color: #2994fb;
+  width: 100%;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box; }
+  .header__status {
     height: 6px;
     width: 6px;
     border-radius: 100%;
     margin-right: 8px;
     background-color: #69f0ae; }
-  .chatbox__friend-name {
+    .header__status_online {
+      display: flex; }
+    .header__status_offline {
+      display: none; }
+  .header__friend-name {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 13px; }
-  .chatbox__options, .chatbox__friend-info {
+  .header__options, .header__friend-info {
     display: flex;
     align-items: center; }
-  .chatbox__option {
+  .header__option {
     margin-left: 10px; }
-  .chatbox__chat {
-    height: 250px;
-    overflow: auto;
-    font-family: 'Open Sans', sans-serif; }
-  .chatbox__message {
+
+.chat {
+  height: 250px;
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif; }
+  .chat__message {
     display: block;
     padding: 5px 10px;
     font-size: 13px; }
-  .chatbox__messages {
+  .chat__messages {
     padding: 8px 15px; }
-    .chatbox__messages:after {
+    .chat__messages:after {
       content: "";
       display: table;
       clear: both; }
-    .chatbox__messages_friend {
+    .chat__messages_friend {
       position: relative; }
-      .chatbox__messages_friend .chatbox__message {
+      .chat__messages_friend .chat__message {
         margin: 1px 0 1px 35px;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
@@ -53,14 +62,14 @@ html {
         color: #353535;
         float: left;
         clear: left; }
-        .chatbox__messages_friend .chatbox__message:first-of-type {
+        .chat__messages_friend .chat__message:first-of-type {
           border-top-left-radius: 15px; }
-        .chatbox__messages_friend .chatbox__message:last-of-type {
+        .chat__messages_friend .chat__message:last-of-type {
           border-bottom-left-radius: 15px; }
-        .chatbox__messages_friend .chatbox__message:only-of-type {
+        .chat__messages_friend .chat__message:only-of-type {
           border-top-left-radius: 15px;
           border-bottom-left-radius: 15px; }
-    .chatbox__messages_user .chatbox__message {
+    .chat__messages_user .chat__message {
       border-top-left-radius: 15px;
       border-bottom-left-radius: 15px;
       background-color: #2994fb;
@@ -68,40 +77,38 @@ html {
       float: right;
       clear: right;
       margin: 1px 0; }
-      .chatbox__messages_user .chatbox__message:first-of-type {
+      .chat__messages_user .chat__message:first-of-type {
         border-top-right-radius: 15px; }
-      .chatbox__messages_user .chatbox__message:last-of-type {
+      .chat__messages_user .chat__message:last-of-type {
         border-bottom-right-radius: 15px; }
-      .chatbox__messages_user .chatbox__message:only-of-type {
+      .chat__messages_user .chat__message:only-of-type {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px; }
-  .chatbox__friend-img {
+  .chat__friend-img {
     width: 28px;
     border-radius: 100%;
     position: absolute;
-    left: 15;
-    top: 15; }
-  .chatbox__time {
+    left: 15px;
+    top: 15px; }
+  .chat__time {
     color: #828282;
     font-size: 12px;
     font-weight: bold;
     display: block;
     text-align: center; }
-  .chatbox__type-message {
-    border-top: 1px solid #e5e5e5; }
-  .chatbox__input {
+
+.create-message {
+  border-top: 1px solid #e5e5e5; }
+  .create-message__input {
     width: 100%;
     border: none;
     padding: 10px 15px;
     box-sizing: border-box; }
-    .chatbox__input:focus {
+    .create-message__input:focus {
       outline: none; }
-  .chatbox__input-options {
+  .create-message__input-options {
     padding: 0 15px 10px; }
-  .chatbox__input-option {
+  .create-message__input-option {
     margin-right: 5px; }
 
-.container {
-  width: 20%; }
-
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=Index.css.map */

@@ -1,0 +1,15 @@
+.create-message {
+  border-top: 1px solid #e5e5e5; }
+  .create-message__input {
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    box-sizing: border-box; }
+    .create-message__input:focus {
+      outline: none; }
+  .create-message__input-options {
+    padding: 0 15px 10px; }
+  .create-message__input-option {
+    margin-right: 5px; }
+
+/*# sourceMappingURL=CreateMessage.css.map */
